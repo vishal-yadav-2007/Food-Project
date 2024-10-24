@@ -1,0 +1,156 @@
+/* For Small phones 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section{
+        padding: 25px 10px;
+    }
+    .section-steps,
+    .contact-form{
+        width: 100%;
+    }
+
+    .row{
+        margin: 0px;
+    }
+
+    .h2{
+        width: 100%;
+    }
+
+    .meals-show{
+        display: block;
+    }
+
+    .hero-text-box{
+        margin-top: 60px;
+    }
+
+    .btn{
+        margin: 10px;
+    }
+}
+
+/* For Small tablets 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+    section {
+        padding: 30px opx;
+    }
+
+    header .row{
+        margin-left: 0;
+        padding: 0 4%;
+    }
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .work-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+
+}
+
+@media only screen and (max-width: 918px){
+    header .row {
+        margin: 0;
+    }
+
+    .main-nav li {
+        margin-right: 20px;
+    }
+}
+
+/* For big tablets 768px to 1023px */
+@media only screen and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    .section-features {
+        padding: 30px 0px;
+    }
+
+    .section-steps {
+        margin: 30px 0px;
+        padding: 10px 0px;
+    }
+
+    .section-cities,
+    .section-review,
+    .section-plans {
+        padding: 30px 0px;
+        margin: 30px 0px;
+    }
+
+    .box p {
+        line-height: 170%;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .icon-small {
+        width: 25px;
+    }
+
+    .city-features {
+        font-size: 90%;
+    }
+
+    /*.btn-app img{
+        height: 50px;
+        width: 120px;
+        margin-right: 20px;
+    }*/
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    footer {
+        padding: 50px 0;
+    }
+
+    footer .row {
+        margin: 0;
+    }
+
+    .long-copy {
+        padding: 0px 18px;
+    }
+}
+
+/* For laptops & desktops 1023px to 1200px */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
